@@ -1,0 +1,17 @@
+name: Task
+description: Lavoro da fare (il tipo di default)
+type: Task
+projects: ["sleepacta/1"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Cosa
+      description: Cosa va fatto e perché.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Quando è finito
+      description: Facoltativo. Come capiamo che è chiuso.

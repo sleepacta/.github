@@ -1,0 +1,26 @@
+name: Bug
+description: Qualcosa non funziona come dovrebbe
+type: Bug
+projects: ["sleepacta/1"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Cosa succede
+      description: Cosa hai visto, con messaggi di errore o screenshot.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Cosa dovrebbe succedere
+  - type: textarea
+    id: steps
+    attributes:
+      label: Come riprodurlo
+      description: Facoltativo. Passi, ID esame, utente, link.
+  - type: dropdown
+    id: env
+    attributes:
+      label: Ambiente
+      options: [Produzione, Testing, Locale]

@@ -1,0 +1,17 @@
+name: Feature
+description: Una funzionalità nuova o un cambiamento a una esistente
+type: Feature
+projects: ["sleepacta/1"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Cosa serve
+      description: Cosa deve poter fare chi la usa.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Perché
+      description: Facoltativo. Chi lo chiede, che problema risolve.
