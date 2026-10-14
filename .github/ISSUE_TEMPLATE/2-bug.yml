@@ -3,6 +3,9 @@ description: Qualcosa non funziona come dovrebbe
 type: Bug
 projects: ["sleepacta/1"]
 body:
+  - type: markdown
+    attributes:
+      value: "Nei commit per questo ticket: `GH-<numero> Titolo` (il numero è quello accanto al titolo, dopo la creazione). Aggiungi `fixes #<numero>` se il commit lo chiude. Vedi CONTRIBUTING."
   - type: textarea
     id: what
     attributes:
