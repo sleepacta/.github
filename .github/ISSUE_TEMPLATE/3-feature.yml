@@ -1,18 +1,18 @@
 name: Feature
-description: Una funzionalità nuova o un cambiamento a una esistente
+description: A new feature or a change to an existing one
 type: Feature
 projects: ["sleepacta/1"]
 body:
   - type: markdown
     attributes:
-      value: "Nei commit per questo ticket: `GH-<numero> Titolo` (il numero è quello accanto al titolo, dopo la creazione). Aggiungi `fixes #<numero>` se il commit lo chiude. Vedi CONTRIBUTING."
+      value: "Commits for this issue: `GH-<number> Title` (the number next to the title, once created). Add `fixes #<number>` when the commit closes it. Area, Priority and Sprint: in the sidebar or in the Sleepacta project. See CONTRIBUTING."
   - type: textarea
     id: what
     attributes:
-      label: Cosa serve
-      description: Facoltativo. Cosa deve poter fare chi la usa.
+      label: What is needed
+      description: Optional. What the user must be able to do.
   - type: textarea
     id: why
     attributes:
-      label: Perché
-      description: Facoltativo. Chi lo chiede, che problema risolve.
+      label: Why
+      description: Optional. Who asks for it, what problem it solves.

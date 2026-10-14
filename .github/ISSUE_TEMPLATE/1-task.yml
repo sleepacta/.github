@@ -1,18 +1,18 @@
 name: Task
-description: Lavoro da fare (il tipo di default)
+description: Work to do (the default)
 type: Task
 projects: ["sleepacta/1"]
 body:
   - type: markdown
     attributes:
-      value: "Nei commit per questo ticket: `GH-<numero> Titolo` (il numero è quello accanto al titolo, dopo la creazione). Aggiungi `fixes #<numero>` se il commit lo chiude. Vedi CONTRIBUTING."
+      value: "Commits for this issue: `GH-<number> Title` (the number next to the title, once created). Add `fixes #<number>` when the commit closes it. Area, Priority and Sprint: in the sidebar or in the Sleepacta project. See CONTRIBUTING."
   - type: textarea
     id: what
     attributes:
-      label: Cosa
-      description: Facoltativo. Cosa va fatto e perché.
+      label: What
+      description: Optional. What needs doing and why.
   - type: textarea
     id: done
     attributes:
-      label: Quando è finito
-      description: Facoltativo. Come capiamo che è chiuso.
+      label: Done when
+      description: Optional. How we know it is finished.

@@ -1,27 +1,27 @@
 name: Bug
-description: Qualcosa non funziona come dovrebbe
+description: Something does not work as it should
 type: Bug
 projects: ["sleepacta/1"]
 body:
   - type: markdown
     attributes:
-      value: "Nei commit per questo ticket: `GH-<numero> Titolo` (il numero è quello accanto al titolo, dopo la creazione). Aggiungi `fixes #<numero>` se il commit lo chiude. Vedi CONTRIBUTING."
+      value: "Commits for this issue: `GH-<number> Title` (the number next to the title, once created). Add `fixes #<number>` when the commit closes it. Area, Priority and Sprint: in the sidebar or in the Sleepacta project. See CONTRIBUTING."
   - type: textarea
     id: what
     attributes:
-      label: Cosa succede
-      description: Facoltativo. Cosa hai visto, con messaggi di errore o screenshot.
+      label: What happens
+      description: Optional. What you saw, with error messages or screenshots.
   - type: textarea
     id: expected
     attributes:
-      label: Cosa dovrebbe succedere
+      label: What should happen
   - type: textarea
     id: steps
     attributes:
-      label: Come riprodurlo
-      description: Facoltativo. Passi, ID esame, utente, link.
+      label: How to reproduce
+      description: Optional. Steps, exam ID, user, links.
   - type: dropdown
     id: env
     attributes:
-      label: Ambiente
-      options: [Produzione, Testing, Locale]
+      label: Environment
+      options: [Production, Testing, Local]
