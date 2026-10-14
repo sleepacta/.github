@@ -7,9 +7,7 @@ body:
     id: what
     attributes:
       label: Cosa succede
-      description: Cosa hai visto, con messaggi di errore o screenshot.
-    validations:
-      required: true
+      description: Facoltativo. Cosa hai visto, con messaggi di errore o screenshot.
   - type: textarea
     id: expected
     attributes:

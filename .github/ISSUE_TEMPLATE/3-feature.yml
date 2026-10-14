@@ -7,9 +7,7 @@ body:
     id: what
     attributes:
       label: Cosa serve
-      description: Cosa deve poter fare chi la usa.
-    validations:
-      required: true
+      description: Facoltativo. Cosa deve poter fare chi la usa.
   - type: textarea
     id: why
     attributes:

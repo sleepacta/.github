@@ -7,9 +7,7 @@ body:
     id: what
     attributes:
       label: Cosa
-      description: Cosa va fatto e perché.
-    validations:
-      required: true
+      description: Facoltativo. Cosa va fatto e perché.
   - type: textarea
     id: done
     attributes:
